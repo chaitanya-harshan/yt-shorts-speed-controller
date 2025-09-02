@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "YT Shorts Speed Controller",
+  "version": "1.0",
+  "description": "Cycle playbackRate 0.5x → 1x → 2x → 0.5x on YouTube Shorts.",
+  "icons": {
+    "1024": "/icons/charizard.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/shorts/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
