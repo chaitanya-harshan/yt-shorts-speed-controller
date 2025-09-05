@@ -40,7 +40,8 @@ function makeButton() {
   btn.classList.add('speed-btn');
   btn.style.cssText = `
     margin-left: 8px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     width: 60px;
     height: 60px;
     font-size: 18px;
